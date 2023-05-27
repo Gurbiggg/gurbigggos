@@ -1,4 +1,4 @@
-# Starting point
+# gurbigggos
 
 [![build-ublue](https://github.com/gurbiggg/gurbigggos/actions/workflows/build.yml/badge.svg)](https://github.com/gurbiggg/gurbigggos/actions/workflows/build.yml)
 
