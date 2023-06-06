@@ -37,7 +37,7 @@ rpm:
   # A list of urls of ".repo" files that should be added to your system.
   # This is the proper way to add custom COPR repos to your image.
   # Tip: Use `%FEDORA_VERSION%` instead of static Fedora version numbers,
-  # so that your repos automatically use your image's actual Fedora version,
+  # so that your repos automatically use your image's actual Fedora version,com.visualstudio.code-oss
   # which greatly simplifies future maintenance of your custom recipe.
   repos:
   # Example (which also demonstrates version number expansion):
@@ -60,6 +60,11 @@ rpm:
     # - tilix
     - neovim
     - gnome-tweaks
+    - gparted
+    - distrobox
+    - micro
+    - tlp
+    - tlp-drw
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
@@ -82,3 +87,18 @@ firstboot:
   flatpaks:
     - io.github.celluloid_player.Celluloid
     - org.kde.krita
+    - com.usebottles.bottles
+    - org.godotengine.Godot
+    - org.inkscape.Inkscape
+    - net.cozic.joplin_desktop
+    - org.musescore.MuseScore
+    - md.obsidian.Obsidian
+    - org.libretro.RetroArch
+    - com.slack.Slack
+    - com.valvesoftware.Steam
+    - com.github.d4nj1.tlpui
+    - com.ultimaker.cura
+    - com.discordapp.Discord
+    - com.mattjakeman.ExtensionManager
+    - cc.arduino.IDE2
+    - com.visualstudio.code-oss
