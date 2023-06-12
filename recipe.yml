@@ -11,7 +11,7 @@ base-image: ghcr.io/ublue-os/silverblue-main
 # builds with the tag (all uBlue images do this).
 fedora-version: 38
 # This description will be visible in the container metadata.
-description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
+description: A custom uBlue image by and for Gurbiggg. Make your own! https://ublue.it/making-your-own/
 # These scripts will be executed during the container build.
 # Place scripts in the "scripts/" dir and put the corresponding filenames here.
 # Any files that aren't listed here won't be executed automatically, which
@@ -31,6 +31,7 @@ scripts:
     - autorun.sh
     # Manually listed scripts.
     # - example_post.sh
+    - apx-setup.sh
 # Custom RPM configuration.
 # These changes will be integrated into your custom image at the "system level".
 rpm:
@@ -65,6 +66,7 @@ rpm:
     - micro
     - tlp
     - tlp-rdw
+    - golang
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
@@ -102,3 +104,4 @@ firstboot:
     - com.mattjakeman.ExtensionManager
     - cc.arduino.IDE2
     - com.visualstudio.code-oss
+    - org.videolan.VLC
