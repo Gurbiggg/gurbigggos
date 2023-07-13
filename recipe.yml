@@ -76,7 +76,6 @@ rpm:
   remove:
   - gnome-tour
   - yelp
-  - cheese
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
   # Whether to embed "yafti" into the OS image and configure it to autostart,
