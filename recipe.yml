@@ -72,7 +72,7 @@ rpm:
     - gnome-shell-extension-appindicator
     - gnome-shell-extension-blur-my-shell
     - gnome-shell-extension-just-perfection
-    
+    - code
     
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
@@ -109,5 +109,4 @@ firstboot:
     - com.ultimaker.cura
     - com.discordapp.Discord
     - com.mattjakeman.ExtensionManager
-    - com.visualstudio.code
     - org.videolan.VLC
