@@ -72,7 +72,7 @@ rpm:
     - gnome-shell-extension-appindicator
     - gnome-shell-extension-blur-my-shell
     - gnome-shell-extension-pop-shell
-    - gnome-shell-extension-pop-shell-shortcut-overrides 
+    # - gnome-shell-extension-pop-shell-shortcut-overrides 
     - gnome-shell-extension-just-perfection
     
     
