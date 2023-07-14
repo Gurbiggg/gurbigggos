@@ -71,8 +71,6 @@ rpm:
     - fish
     - gnome-shell-extension-appindicator
     - gnome-shell-extension-blur-my-shell
-    - gnome-shell-extension-pop-shell
-    # - gnome-shell-extension-pop-shell-shortcut-overrides 
     - gnome-shell-extension-just-perfection
     
     
@@ -97,7 +95,6 @@ firstboot:
   # the "just setup-flatpaks" command from our "custom.just" template file.
   # This is just an example selection:
   flatpaks:
-    - io.github.celluloid_player.Celluloid
     - org.kde.krita
     - com.usebottles.bottles
     - org.godotengine.Godot
