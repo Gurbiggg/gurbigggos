@@ -30,5 +30,10 @@ RUN chmod +x /tmp/scripts/build.sh && \
         rm -rf /tmp/* /var/* && \
         ostree container commit
 
-
 RUN rpm-ostree install code
+
+COPY framework/usr /usr
+
+RUN rpm-ostree install tlp tlp-rdw stress-ng
+RUN rpm-ostree override remove power-profiles-daemon
+RUN systemctl enable tlp
