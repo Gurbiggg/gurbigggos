@@ -67,9 +67,14 @@ rpm:
     - micro
     - tlp
     - tlp-rdw
-    - openh264
-    - mozilla-openh264 
-    - gstreamer1-plugin-openh264
+    - zsh
+    - fish
+    - gnome-shell-extension-appindicator
+    - gnome-shell-extension-blur-my-shell
+    - gnome-shell-extension-pop-shell
+    - gnome-shell-extension-pop-shell-shortcut-overrides 
+    - gnome-shell-extension-just-perfection
+    
     
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
